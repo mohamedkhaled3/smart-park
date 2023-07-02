@@ -47,7 +47,7 @@ class RegisterScreen extends StatelessWidget {
                   ),
 
                   CustomTextField(
-                      hint: 'Name',
+                      hint: 'number of car',
                       validator: (date) {
                         if (date!.isEmpty) {
                           return 'Can\'t be null';
